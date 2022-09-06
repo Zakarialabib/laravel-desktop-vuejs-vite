@@ -1,14 +1,14 @@
 {
   "name": "laravel-desktop",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "tauri:build": "vue-cli-service tauri:build",
-    "tauri:serve": "vue-cli-service tauri:serve",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "tauri:build": "vue-cli-service tauri:build",
+    "tauri:serve": "vue-cli-service tauri:serve"
   },
   "dependencies": {
     "@johmun/vue-tags-input": "^2.1.0",

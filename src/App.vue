@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
   <div v-if="Loading">
     <router-view></router-view>
@@ -7,8 +10,7 @@
 </template>
 
 
-<script setup>
-import { computed } from 'vue'
+<script>
 import { mapActions, mapGetters } from "vuex";
 
 export default {
@@ -63,6 +65,3 @@ methods:{
 };
 </script>
 
-<style lang="scss">
-
-</style>
